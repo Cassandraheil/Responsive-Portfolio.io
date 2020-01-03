@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body id=body>
+    <body>
         <header id="header">
         <div class="container">
             <a href="index.html" id="myname">Cassandra Heil</a>
@@ -17,21 +17,24 @@
         </div>
         </header>
 
-        <section class="main container">
+        <section class="main-container container">
             <h1>Contact</h1>
 
             <form id="contact">
                 <ul>
-                    <li><label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Your Name Here">
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name Here" required="required">
                     </li>
         
-                    <li><label for="email">Email</label>
-                        <input type="text" name="Email" id="email" placeholder="Youremail@madeupemail.com">
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="Email" id="email" placeholder="Youremail@madeupemail.com" required="required">
                     </li>
 
-                    <li><label for="message">Message</label>
-                        <textarea type="text" name="Message" id="message" placeholder="Type what you need to say here"></textarea>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea type="text" name="Message" id="message" placeholder="Type what you need to say here" required="required"></textarea>
                     </li>
                  </ul>   
                     <input type="submit" name="Submit">
